@@ -13,7 +13,7 @@
    as a 2D sampler.
    
    See documentation for more details. */
-#request mod bars
+#request mod circle
 
 /* Window hints */
 #request setfloating  false
@@ -48,8 +48,10 @@
 /* Window title */
 #request settitle "GLava"
 
-/* Window geometry (x, y, width, height) DESKTOP RESOLUTION */
-#request setgeometry 0 0 1366 768
+/* Displays on 2nd HORI monitor */
+/* using purple Huawei Ring wallpaper */
+/* Window geometry (x, y, width, height) */
+#request setgeometry 1598 -38 1366 768
 
 /* Window background color (RGBA format).
    Does not work with `setopacity "xroot"` */
